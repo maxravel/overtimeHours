@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    text-align: center;
+    background:rgb(77, 245, 77);
+    padding:10px;
+}
+
+.container{
+    max-width:1160px;
+    margin:0 auto 0 auto;
+}
+
+.main{
+    display:flex;
+}
+
+.rules{
+    flex: 1;
+    padding:10px;
+    background:rgb(68, 119, 230);
+    font-weight: bold;
+}
+
+ul{
+    padding-top:10px;
+}
+
+.calculator{
+    flex:2;
+    background:orange;
+    padding:10px;
+    font-weight: bold;
+}
+
+#calculate{
+    padding: 5px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 14px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+#calculate:hover{
+    background-color: blue;
+}
+
+.hours{
+    width:50%;
+}
