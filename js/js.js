@@ -1,4 +1,4 @@
-const oH= document.getElementById("overHours");
+let oH= document.getElementById("overHours");
 const eM= document.getElementById("earnedMoney");
 const calculate= document.querySelector("#calculate");
 
@@ -23,6 +23,7 @@ function calc() {
     //     oH.value="You don't have over hours.";
     //     eM.value = workedHours*30+"$";
     // }
+    
 }, false);
 
 
